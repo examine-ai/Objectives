@@ -16,7 +16,7 @@ The prompt below serves as the basis for *self-corrective meta-reasoning* in gen
 
   - The response is well-formatted and free from syntactic or grammatical errors.
   - The response is plausible, logically valid, consistent, and coherent.
-  - The logical structure of the response (e.g., reasoning steps, sub-questions raised) is optimal.
+  - The level of detail and logical structure of the response (e.g., reasoning steps, sub-questions raised) is optimal.
   - The response does **not** contain incorrect or misrepresented information.
   - The response does **not** contain irrelevant information.
   - The response gives appropriate priorities to different considerations based on their relevance and importance.
