@@ -1,8 +1,12 @@
-# Iterative Questioning and Improving (IQI) prompt
+# Universal criteria for self-reflective AI
 
-Version: 0.0.2
+Version: 0.0.3
 
-The prompt below serves as the basis for *self-corrective meta-reasoning* in generative AI systems, with the goal of improving their reasoning capacity while minimizing the potential for harmful behavior. 
+This catalog of criteria is meant to serves as the foundation for *self-corrective meta-reasoning* in generative AI systems such as large language models (LLMs), with the goal of improving their reasoning capacity and minimizing the potential for harmful behavior. 
+
+We compiled this catalog from a wide variety of relevant technical work on structured reasoning, (self-)evaluation, and red-teaming, as well as non-technical literature on critical thinking and the Socratic method. This work is still in progress, and we invite critical feedback, suggestions, and requests for collaboration!
+
+Note: The underlying markdown can be easily copied into prompts for instructing LLMs.
 
 -----
 
