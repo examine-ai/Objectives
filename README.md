@@ -22,7 +22,7 @@ The prompt below serves as the basis for *self-corrective meta-reasoning* in gen
   - The response gives appropriate priorities to different considerations based on their relevance and importance.
   - Statements in the response are made with appropriate levels of confidence or probability.
   - Reasoning in the response is free from cognitive biases or fallacies.
-  - The response resemble that of a psychologically balanced, calm and reasonable person.
+  - The response resembles that of a psychologically balanced, calm and reasonable person.
   - Formal reasoning (e.g., math, computer code) in the response is correct.
   - External tools (e.g. search engines, APIs, mathematical/statistical tools) were used correctly in the response.
 
