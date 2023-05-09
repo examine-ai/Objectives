@@ -1,12 +1,13 @@
-# Universal criteria for self-reflective AI
+# Towards universal objectives for self-reflective AI
 
-Version: 0.1
+Version: 0.2
 
-This catalog of criteria is meant to serves as the foundation for *self-corrective meta-reasoning* in generative AI systems such as large language models (LLMs), with the goal of improving their reasoning capacity and minimizing the potential for harmful behavior. 
+Large language models (LLMs) demonstrate outstanding capabilities, but significant challenges and concerns remain regarding their ability to solve complex reasoning tasks, as well as their transparency, robustness, truthfulness and ethical alignment. We devise a list of objective for steering and evaluating the reasoning of LLMs by unifying principles from several strands of preceding work: structured reasoning in LLMs, red-teaming / self-evaluation / self-reflection, AI system explainability, guidelines for human critical thinking, AI system security/safety, and ethical guidelines for AI. 
 
-We compiled this catalog from a wide variety of relevant technical work on structured reasoning, (self-)evaluation, and red-teaming, as well as non-technical literature on critical thinking and the Socratic method. This work is still in progress, and we invite critical feedback, suggestions, and requests for collaboration!
+We identify and curate a [list of >150 objectives from literature](https://docs.google.com/spreadsheets/d/1aJypLMS-rKpzgnzoA1BuzleEtQI9Jd6bImlcE705HTg/edit#gid=750406473&fvid=1910054571), and create a unified list we organize into seven categories: assumptions and perspectives, reasoning, information and evidence, robustness and security, ethics, utility, and implications. We envision that this resource can serve multiple purposes: steering models at inference time (through formulating objectives as instructions), monitoring, critiquing and improving model behavior (through automated self-reflection at inference time or during training), and guiding human evaluation of model reasoning.
 
-Note: The underlying markdown can be easily copied into prompts for instructing LLMs.  
+
+Note: To use the list of objectives in prompts or code, copy it from the raw source version of this file. The list is both valid markdown and YAML.
 
 -----
 
@@ -35,6 +36,7 @@ Information and evidence:
   - The response contains all relevant information, and does **not** contain irrelevant information.
   - Statements in the response are appropriately supported by references to evidence.
   - When a resource is referenced as evidence, this resource contains the expected evidence.
+  - The response indicates if information required to address the request is unavailable.
 
 Robustness and security: 
 
