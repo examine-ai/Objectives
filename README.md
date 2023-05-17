@@ -1,15 +1,15 @@
 # Towards universal objectives for self-reflective AI
 
-Version: 0.2
-
 Large language models (LLMs) demonstrate outstanding capabilities, but significant challenges and concerns remain regarding their ability to solve complex reasoning tasks, as well as their transparency, robustness, truthfulness and ethical alignment. We devise a list of objective for steering and evaluating the reasoning of LLMs by unifying principles from several strands of preceding work: structured reasoning in LLMs, red-teaming / self-evaluation / self-reflection, AI system explainability, guidelines for human critical thinking, AI system security/safety, and ethical guidelines for AI. 
 
-We identify and curate a __[list of >200 objectives collected from literature](https://docs.google.com/spreadsheets/d/1aJypLMS-rKpzgnzoA1BuzleEtQI9Jd6bImlcE705HTg/edit#gid=750406473&fvid=1910054571)__, and create a unified list we organize into seven categories: assumptions and perspectives, reasoning, information and evidence, robustness and security, ethics, utility, and implications. We envision that this resource can serve multiple purposes: steering models at inference time (through formulating objectives as instructions), monitoring, critiquing and improving model behavior (through automated self-reflection at inference time or during training), and guiding human evaluation of model reasoning.
+We envision that this resource can serve multiple purposes: steering models at inference time (through formulating objectives as instructions), monitoring, critiquing and improving model behavior (through automated self-reflection at inference time or during training), and guiding human evaluation of model reasoning.
 
-
-Note: To use the list of objectives in prompts or code, copy it from the raw source version of this file. The list is both valid markdown and YAML. The list of objectives collected from literature is updated constantly, and there might be some delay until novel relevant objectives are integrated into UnifiedObjectives.
+- Project website: https://examine.dev/
+- Paper: [Towards unified objectives for self-reflective AI](https://examine.dev/docs/Unified_objectives.pdf) (Samwald et al., 2023)
+- [Spreadsheet with >200 objectives collected from literature](https://docs.google.com/spreadsheets/d/1aJypLMS-rKpzgnzoA1BuzleEtQI9Jd6bImlcE705HTg/edit#gid=750406473&fvid=1910054571) that is used as the basis for UnifiedObjectives. Updated constantly.
 
 -----
+## UnifiedObjectives (v0.2)
 
 Assumptions and perspectives: 
 
@@ -70,3 +70,7 @@ Implications:
   - The response lists all its relevant implications and expected consequences.
   - The response lists appropriate suggestions for further actions or requests.
   - The response indicates if no further actions or requests are required.
+
+-----
+
+Note: To use the list of objectives in prompts or code, copy it from the raw source version of this file. The list is both valid markdown and YAML. The list of objectives collected from literature is updated constantly, and there might be some delay until novel relevant objectives are integrated into UnifiedObjectives.
